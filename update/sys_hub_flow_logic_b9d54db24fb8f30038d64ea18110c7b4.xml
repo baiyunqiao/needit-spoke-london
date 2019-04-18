@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow_logic">
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">31d54db24fb8f30038d64ea18110c7b3</block>
+        <comment>assign a value to the subflow output</comment>
+        <connected_to/>
+        <display_text/>
+        <flow display_value="Handle Overdue NeedIt Tasks">be73c1ba4f78f30038d64ea18110c75d</flow>
+        <inputs/>
+        <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>4</order>
+        <outputs_assigned>follow_up_task</outputs_assigned>
+        <outputs_to_assign/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-17 15:42:50</sys_created_on>
+        <sys_id>b9d54db24fb8f30038d64ea18110c7b4</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NeedIt Spoke" source="x_298527_needit_sp">88aab71a4ff8b30038d64ea18110c7cd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt Spoke">88aab71a4ff8b30038d64ea18110c7cd</sys_scope>
+        <sys_update_name>sys_hub_flow_logic_b9d54db24fb8f30038d64ea18110c7b4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-18 14:21:46</sys_updated_on>
+        <ui_id>fa9c352c-0655-4913-b3b9-5dc90346dec5</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=b9d54db24fb8f30038d64ea18110c7b4"/>
+    <sys_element_mapping action="delete_multiple" query="id=b9d54db24fb8f30038d64ea18110c7b4"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>follow_up_task</field>
+        <id>b9d54db24fb8f30038d64ea18110c7b4</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-17 15:42:50</sys_created_on>
+        <sys_id>7dd54db24fb8f30038d64ea18110c7b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-17 15:42:50</sys_updated_on>
+        <table>var__m_sys_hub_flow_output_be73c1ba4f78f30038d64ea18110c75d</table>
+        <value>{{1d822112-6955-4f8a-96e8-cd9f70313102.Record}}</value>
+    </sys_element_mapping>
+</record_update>
